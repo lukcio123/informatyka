@@ -1,1 +1,2 @@
 # informatyka
+Łukasz Izotow
