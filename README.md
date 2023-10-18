@@ -1,2 +1,2 @@
 # informatyka
-Łukasz Izotow
+Łukasz Izotow kodzik blik 
