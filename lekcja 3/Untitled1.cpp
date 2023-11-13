@@ -11,15 +11,29 @@
 }
 }
  //zadanie2
- int w,h;
- cout << "Podaj Wysokosc: " << endl;
- cin >> w;
- cout << "Podaj Szerokosc: " << endl;
- cin >> h;
- 
- 	
-	 cout << endl;
+
+ for(int i= 0; i < 5; i++){ 
+    
+    		cout << "Ineracja nr: " << i <<endl;
+    		
+    		cout << "Podaj szerokosc: ";
+    		cin >> szerokosc;
+    		cout << "Podaj wysokosc: ";
+    		cin >> wysokosc;
+    		
+		}
+         
+		 for(int i = 0; i < 5; i++){
+		 	for(int j = 0; j < 5; j++){
+		 		cout << " " << i << j;
+			 }
+		 }
+
+
+   cout << endl;
    system("pause");
+
+	}
  	
- 	
- }
+
+ 
