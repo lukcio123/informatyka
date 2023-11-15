@@ -12,20 +12,26 @@
 }
  //zadanie2
 
- for(int i= 0; i < 5; i++){ 
+         int szerokosc, wysokosc;
     
-    		cout << "Ineracja nr: " << i <<endl;
     		
-    		cout << "Podaj szerokosc: ";
+    		cout << "Podaj szerokosc: " << endl;
     		cin >> szerokosc;
-    		cout << "Podaj wysokosc: ";
+    		cout << "Podaj wysokosc: " << endl;
     		cin >> wysokosc;
     		
 		}
          
-		 for(int i = 0; i < 5; i++){
-		 	for(int j = 0; j < 5; j++){
-		 		cout << " " << i << j;
+		 for(int i=0; i < wysokosc; i++) {
+		 	for(int j=0; j < szerokosc; j++){
+		 	if(i == 0 || i == wysokosc-1)
+			 	cout << " * ";
+			 	else if(j == 0 || j == szerokosc-1)
+			 	     cout << " * ";
+			 	else
+			 	   cout << " ";
+			 	   
+		 		
 			 }
 		 }
 
